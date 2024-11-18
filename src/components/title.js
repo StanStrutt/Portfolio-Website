@@ -1,7 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 
-function Title() {
+export default function Title() {
     return (
       <div className="Title">
         <Helmet>
@@ -11,4 +11,3 @@ function Title() {
     )
   }
   
-  export default Title;
