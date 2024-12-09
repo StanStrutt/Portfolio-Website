@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+*:focus {
+  outline: 0.2em solid;
+  color: red;
+}
+
 h1 {
   color: red;
   margin: 30px;
@@ -13,4 +18,16 @@ h2 {
 
 p {
   margin: 35px;
+}
+
+.port-text {
+  margin-bottom: 20px;
+}
+
+.FareShare-text {
+  margin-bottom: 30px;
+}
+
+.GMAC-text {
+  margin-bottom: 30px;
 }
