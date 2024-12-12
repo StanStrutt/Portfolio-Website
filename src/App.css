@@ -2,14 +2,22 @@
   text-align: center;
 }
 
+body {
+  background-color: #333;
+}
+
 *:focus {
-  outline: 0.2em solid;
-  color: red;
+  outline: 0.2em solid !important;
+  color: red !important;
 }
 
 h1 {
   color: red;
-  margin: 30px;
+  margin: 0 30px 30px 30px;
+}
+
+.home-text h1 {
+  padding-top: 30px;
 }
 
 h2 {
@@ -22,12 +30,36 @@ p {
 
 .port-text {
   margin-bottom: 20px;
+  color: white;
+}
+
+.port-text h1 {
+  padding-top: 30px;
 }
 
 .FareShare-text {
   margin-bottom: 30px;
+  color: white;
+}
+
+.FareShare-text a {
+  color: cyan;
 }
 
 .GMAC-text {
   margin-bottom: 30px;
+  color: white;
+}
+
+.GMAC-text a {
+  color: cyan;
+}
+
+.home-text {
+  color: white;
+}
+
+.background {
+  background-color: #333;
+  background-size: 100vh;
 }
