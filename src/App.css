@@ -3,7 +3,7 @@
 }
 
 body {
-  
+  background-color: #333;
 }
 
 *:focus {
@@ -14,6 +14,10 @@ body {
 h1 {
   color: rgb(0, 0, 0);
   margin: 0 30px 30px 30px;
+}
+
+.page-title-cont {
+  background-color: #fff;
 }
 
 .home-text h1 {
@@ -53,4 +57,60 @@ h1 {
 
 .page-title {
   font-size: 5em;
+  padding: 5rem 0;
 }
+
+.line-container {
+  padding-top: 4rem;
+}
+
+.line-box {
+  background-color: #333;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 36rem;
+}
+
+.welcome-box {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding-top: 45px;
+}
+
+.welcome-box h2 {
+  margin: 3rem 0 5rem;
+  font-size: 5rem;
+}
+
+.welcome-wrapper {
+  margin: 0 auto;
+}
+
+.port-box {
+  background-color: rgb(222, 222, 222);;
+  padding-top: 45px;
+}
+
+.port-box h2 {
+  margin: 3rem 0 5rem;
+  font-size: 3.5em;
+}
+
+.port-wrapper {
+  margin: 0 auto;
+}
+
+.long-box {
+  background-color: #fff;
+  padding-top: 45px;
+}
+
+.long-box h3 {
+  margin: 3rem 0 5rem;
+  font-size: 2.5em;
+}
+
+.long-title {
+  margin: 0 auto;
+}
+
