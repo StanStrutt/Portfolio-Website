@@ -1,25 +1,56 @@
-nav {
-  background-color: rgb(209, 209, 209);
-  padding: 1rem;
 
+
+.navbar {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 2.8rem 0;
+    margin: 0 auto;
+    max-width: 120rem;
+    width: calc(100% - 8rem);
 }
-  
-nav div {
-  display: flex;
-  text-align: left;
-  justify-content: space-around;
+
+.navbar-headers {
+    align-items: baseline;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: -1rem;
 }
-  
-nav h1 {
-  margin: 0;
+
+.name {
+    margin: 1rem 0 0 2.4rem;
 }
-  
-nav a {
-  color: black;
-  text-decoration: none;
-  font-size: 1.5rem;
+
+.portfolio {
+    margin: 1rem 0 0 2.4rem;
 }
-  
-nav a:hover {
-  color: red;
+
+.navbar-links {
+    align-items: center;
+    display: flex;
+}
+
+nav {
+    margin-top: -1rem;
+}
+
+.links a{
+    color: rgb(223, 61, 88);
+}
+
+.home-link {
+    margin-right: 2rem;
+}
+
+.portfolio-link {
+    margin-right: 4rem;
+}
+
+h2 {
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
 }

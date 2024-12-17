@@ -2,19 +2,28 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import "./Navbar.css"
 
-const Navbar = () => {
+export default function Navbar() {
   return (
-    <nav>
-      <div>
-      <h1>
-        <Link to="/" alt="Link to the Home page">Home</Link>
-        </h1>
-        <h1>
-          <Link to="/portfolio" alt="Link to the Portfolio page">Portfolio</Link>
-        </h1>
+    <header>
+      <div className='navbar'>
+        <div className='navbar-headers'>
+          <div className='name'>
+            <h1>Stan Strutt</h1>
+          </div>
+          <div className='portfolio'>
+            <h2>Portfolio</h2>
+          </div>
         </div>
-    </nav>
+        <div className='navbar-links'>
+          <nav>           
+            <h2 className='links'>
+              <Link className="home-link" to="/" alt="Link to the Home page">Home</Link>
+              <Link className="portfolio-link" to="/portfolio" alt="Link to the Portfolio page">Portfolio</Link>
+            </h2>
+          </nav>
+        </div>
+      </div>
+    </header>
   );
 };
 
-export default Navbar;

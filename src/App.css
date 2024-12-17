@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #333;
+  
 }
 
 *:focus {
@@ -12,20 +12,12 @@ body {
 }
 
 h1 {
-  color: red;
+  color: rgb(0, 0, 0);
   margin: 0 30px 30px 30px;
 }
 
 .home-text h1 {
   padding-top: 30px;
-}
-
-h2 {
-  margin: 75px;
-}
-
-p {
-  margin: 35px;
 }
 
 .port-text {
@@ -59,7 +51,6 @@ p {
   color: white;
 }
 
-.background {
-  background-color: #333;
-  background-size: 100vh;
+.page-title {
+  font-size: 5em;
 }
