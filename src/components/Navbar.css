@@ -31,10 +31,6 @@
     display: flex;
 }
 
-nav {
-    margin-top: -1rem;
-}
-
 .links a{
     color: rgb(223, 61, 88);
 }

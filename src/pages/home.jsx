@@ -5,18 +5,12 @@ export default function Home() {
     <div className='Home'>
       <div className='home-page'>
         <div className='page-title-cont'>
-          <h1 className='page-title'>Home</h1>
-        </div>        
+          <div className='page-title'>
+            <h1>Home</h1>
+          </div>
+        </div>
         <div className='line-container'>
           <div className='line-box'>
-            {/* <h2>Welcome to my Portfolio website</h2>
-            <h3>A little bit about myself</h3>
-            <p>My name is Stan and im currently an intern at DISC college 
-              </p>
-            <p>I am working towards learning and developing my skills in javascript
-              and react as well as a backend developer/software engineer.
-            </p>
-            <p>I have taught myself python, HTML, CSS and am currently looking for opportunities as a software developer.</p> */}
             <div className='welcome-box'>
               <h2>Welcome</h2>
             </div>
@@ -28,10 +22,10 @@ export default function Home() {
                 <h3>A little bit about myself</h3>
               </div>
               <div className='long-text'>
-                <p>My name is Stan and im currently an intern at DISC college</p>
-                <p>I am working towards learning and developing my skills in javascript
-                and react as well as a backend developer/software engineer.</p>
-                <p>I have taught myself python, HTML, CSS and am currently looking for opportunities as a software developer.</p>
+                <strong>My name is Stan and im currently an intern at DISC college</strong>
+                <strong>I am working towards learning and developing my skills in javascript
+                and react as well as a backend developer/software engineer.</strong>
+                <strong>I have taught myself python, HTML, CSS and am currently looking for opportunities as a software developer.</strong>
               </div>
             </div>
           </div>
