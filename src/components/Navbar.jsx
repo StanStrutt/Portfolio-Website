@@ -11,7 +11,14 @@ export default function Navbar() {
             <h1>Stan Strutt</h1>
           </div>
           <div className='portfolio'>
-            <h2>Portfolio</h2>
+            <h2>
+              <Link className="portfolio-link" to="/portfolio" alt="Link to the Portfolio page">Portfolio</Link>
+            </h2>
+          </div>
+          <div className='portfolio'>
+            <h2>
+              <a href='https://github.com/StanStrutt'>GitHub</a>
+            </h2>
           </div>
         </div>
         <div className='navbar-links'>

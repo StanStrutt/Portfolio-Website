@@ -26,6 +26,12 @@
     margin: 1rem 0 0 2.4rem;
 }
 
+.portfolio a {
+    text-decoration: none;
+    color: #000;
+    margin: 0;
+}
+
 .navbar-links {
     align-items: center;
     display: flex;

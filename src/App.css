@@ -40,6 +40,10 @@ h1 {
   width: 80%;
 }
 
+.FareShare-text p {
+  margin: 3rem 0;
+}
+
 .FareShare-text a {
   color: cyan;
 }
@@ -150,8 +154,18 @@ strong {
 
 hr {
   width: 100%;
-  background-color: #fff;
+  background-color: #333;
   margin: 4rem 0;
   height: 2rem;
   border: none;
+}
+
+.FareShare h2 {
+  color: #fff;
+  margin: 2rem 0 3rem;
+  text-decoration: underline;
+}
+
+.GMAC-Reimagined {
+  margin-bottom: 4rem;
 }

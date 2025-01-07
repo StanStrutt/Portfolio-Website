@@ -19,13 +19,14 @@ export default function Home() {
             </div>
             <div className='long-box'>
               <div className='long-title'>
-                <h3>A little bit about myself</h3>
+                <h3>About me</h3>
               </div>
               <div className='long-text'>
-                <strong>My name is Stan and im currently an intern at DISC college</strong>
-                <strong>I am working towards learning and developing my skills in javascript
-                and react as well as a backend developer/software engineer.</strong>
-                <strong>I have taught myself python, HTML, CSS and am currently looking for opportunities as a software developer.</strong>
+                <strong>I am a motivated, hardworking, and flexible individual with a passion for software engineering.</strong>
+                <strong>I aspire to work in the industry and am currently working on a supported internship at DISC, to reach this goal.</strong>
+                <strong>My coding skills are the best in React and CSS, but I am always open to learning new languages and skills.</strong>
+                <strong>I am know but am not proficient in HTML, Javascript and Python</strong>
+                <strong>I am eager to learn and take on new challenges, and can work as well on my own or as part of a team.</strong>
               </div>
             </div>
           </div>
