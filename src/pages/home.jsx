@@ -27,6 +27,7 @@ export default function Home() {
                 <strong>My coding skills are the best in React and CSS, but I am always open to learning new languages and skills.</strong>
                 <strong>I am know but am not proficient in HTML, Javascript and Python</strong>
                 <strong>I am eager to learn and take on new challenges, and can work as well on my own or as part of a team.</strong>
+                <strong></strong>
               </div>
             </div>
           </div>
