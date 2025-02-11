@@ -34,31 +34,17 @@ h1 {
   padding-top: 30px;
 }
 
-.FareShare-text {
+.project-text {
   margin: 0 auto 30px auto;
   color: #fff;
   width: 80%;
 }
 
-.FareShare-text p {
+.project-text p {
   margin: 3rem 0;
 }
 
-.FareShare-text a {
-  color: cyan;
-}
-
-.GMAC-text {
-  margin: 0 auto 30px auto;
-  color: #fff;
-  width: 80%;
-}
-
-.GMAC-text p {
-  margin-bottom: 30px;
-}
-
-.GMAC-text a {
+.project-text a {
   color: cyan;
 }
 
@@ -160,7 +146,7 @@ hr {
   border: none;
 }
 
-.FareShare h2 {
+.project-title {
   color: #fff;
   margin: 2rem 0 3rem;
   text-decoration: underline;
@@ -168,4 +154,8 @@ hr {
 
 .GMAC-Reimagined {
   margin-bottom: 4rem;
+}
+
+.Disco-link {
+  margin: 3em 0 2em 0;
 }
