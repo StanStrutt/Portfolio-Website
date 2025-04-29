@@ -1,4 +1,4 @@
-import React from 'react';
+
 
 export default function Home() {
   return (
@@ -11,24 +11,15 @@ export default function Home() {
         </div>
         <div className='line-container'>
           <div className='line-box'>
+            <div className="portrait">
+              <img alt=""/>
+            </div>
             <div className='welcome-box'>
-              <h2>Welcome</h2>
-            </div>
-            <div className='port-box'>
-              <h2>To my Portfolio</h2>
-            </div>
-            <div className='long-box'>
-              <div className='long-title'>
-                <h3>About me</h3>
-              </div>
-              <div className='long-text'>
-                <strong>I am a motivated, hardworking, and flexible individual with a passion for software engineering.</strong>
-                <strong>I aspire to work in the industry and am currently working on a supported internship at DISC, to reach this goal.</strong>
-                <strong>My coding skills are the best in React and CSS, but I am always open to learning new languages and skills.</strong>
-                <strong>I am know but am not proficient in HTML, Javascript and Python</strong>
-                <strong>I am eager to learn and take on new challenges, and can work as well on my own or as part of a team.</strong>
-                <strong></strong>
-              </div>
+              <p>I am a motivated, hardworking, and flexible individual with a passion for software engineering.</p>
+              <p>I aspire to work in the industry and am currently working on a supported internship at DISC, to reach this goal.</p>
+              <p>My coding skills are the best in React and CSS, but I am always open to learning new languages and skil</p>
+              <p>I have basic knowledge of HTML, Javascript and Python.</p>
+              <p>I am eager to learn and take on new challenges, and can work as well on my own or as part of a team.</p>             
             </div>
           </div>
         </div>
@@ -37,3 +28,8 @@ export default function Home() {
   );
 };
 
+{/* <strong>I am a motivated, hardworking, and flexible individual with a passion for software engineering.</strong>
+<strong>I aspire to work in the industry and am currently working on a supported internship at DISC, to reach this goal.</strong>
+<strong>My coding skills are the best in React and CSS, but I am always open to learning new languages and skills.</strong>
+<strong>I have basic knowledge of HTML, Javascript and Python</strong>
+<strong>I am eager to learn and take on new challenges, and can work as well on my own or as part of a team.</strong> */}

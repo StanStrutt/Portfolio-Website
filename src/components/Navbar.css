@@ -32,17 +32,20 @@
     margin: 0;
 }
 
-.navbar-links {
+.links {
     align-items: center;
     display: flex;
+    text-decoration: underline rgb(223, 61, 88);
 }
 
 .links a{
     color: rgb(223, 61, 88);
+    margin-right: 2rem;
 }
 
 .home-link {
     margin-right: 2rem;
+    margin-left: 2rem;
 }
 
 .portfolio-link {

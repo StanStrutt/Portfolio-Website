@@ -12,17 +12,13 @@ export default function Portfolio() {
       </div>
       <div className='line-container'>
         <div className='line-box-again'>
-          <div className='port-text'>
-            <h2>Here is a collection of my previous work</h2>
-          </div>
-          <FareShare/>
+          <DISCOTEK/>
           <hr/>
           <GMAC/>
           <hr/>
-          <DISCOTEK/>
+          <FareShare/>
         </div>
       </div>
     </div>
   );
 };
-
