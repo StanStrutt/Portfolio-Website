@@ -1,6 +1,7 @@
 import GMAC from "../components/GMAC";
 import FareShare from "../components/FareShare";
 import DISCOTEK from "../components/DISCOTEK";
+import Hackathon from "../components/Hackathon";
 
 export default function Portfolio() {
   return (
@@ -17,6 +18,8 @@ export default function Portfolio() {
           <GMAC/>
           <hr/>
           <FareShare/>
+          <hr/>
+          <Hackathon/>
         </div>
       </div>
     </div>
