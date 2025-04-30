@@ -28,8 +28,3 @@ export default function Home() {
   );
 };
 
-{/* <strong>I am a motivated, hardworking, and flexible individual with a passion for software engineering.</strong>
-<strong>I aspire to work in the industry and am currently working on a supported internship at DISC, to reach this goal.</strong>
-<strong>My coding skills are the best in React and CSS, but I am always open to learning new languages and skills.</strong>
-<strong>I have basic knowledge of HTML, Javascript and Python</strong>
-<strong>I am eager to learn and take on new challenges, and can work as well on my own or as part of a team.</strong> */}

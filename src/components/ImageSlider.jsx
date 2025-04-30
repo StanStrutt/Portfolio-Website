@@ -24,5 +24,3 @@ export default function ImageSlider({ slides }) {
         </div>
     )
 }
-
-// {{backgroundImage: `url(${slides[currentIndex]})`}}
