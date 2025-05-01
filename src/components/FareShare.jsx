@@ -2,8 +2,8 @@ import ImageSlider from "./ImageSlider"
 
 export default function FareShare() {
   const slides = [
-    {url: 'http://localhost:3000/FareSharePortfolio.png', title: "My version of FareShare"},
-    {url: 'http://localhost:3000/actual-FareShare.png', title: "Original FareShare"},
+    {url: '/FareSharePortfolio.png', title: "My version of FareShare"},
+    {url: '/actual-FareShare.png', title: "Original FareShare"},
   ];
 
     return (

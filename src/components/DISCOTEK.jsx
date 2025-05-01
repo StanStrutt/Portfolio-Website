@@ -2,9 +2,9 @@ import ImageSlider from "./ImageSlider"
 
 export default function DISCOTEK() {
     const slides = [
-        {url: 'http://localhost:3000/DiscoHeader.png', title: "Discotek Header section"},
-        {url: 'http://localhost:3000/DiscoFeatured.png', title: "Discotek Featured section"},
-        {url: 'http://localhost:3000/DiscoList.png', title: "Discotek List section"},
+        {url: '/DiscoHeader.png', title: "Discotek Header section"},
+        {url: '/DiscoFeatured.png', title: "Discotek Featured section"},
+        {url: '/DiscoList.png', title: "Discotek List section"},
     ]
     return (
         <div className="DISCOTEK">

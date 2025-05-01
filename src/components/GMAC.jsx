@@ -1,9 +1,10 @@
 import ImageSlider from "./ImageSlider"
 
 export default function GMAC() {
+
   const slides = [
-    {url: 'http://localhost:3000/GMACDropDowns.png', title: "GMAC dropdown"},
-    {url: 'http://localhost:3000/GMACCards.png', title: "GMAC info cards"},
+    {url: "/GMACDropDowns.png", title: "GMAC dropdown"},
+    {url: '/GMACCards.png', title: "GMAC info cards"},
   ]
     return (
         <div className='GMAC-Reimagined'>
