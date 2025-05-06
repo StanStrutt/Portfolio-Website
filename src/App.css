@@ -163,6 +163,13 @@ hr {
     width: 95%;
     margin: 0 auto;
   }
+  .line-box {
+    flex-direction: column;
+    align-items: center;
+  }
+  .portrait {
+    margin-bottom: 3rem
+  }
 }
 
 @media screen and (max-width: 769px) {
@@ -175,9 +182,15 @@ hr {
   .flex-port {
     margin: 0;
   }
+  .portrait {
+    width: 100%;
+  }
+  .welcome-box {
+    width: 100%;
+  }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 375px) {
   .page-title h1 {
     font-size: 3rem;
   }
