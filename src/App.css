@@ -170,3 +170,15 @@ hr {
     width: 100%;
   }
 }
+
+@media screen and (max-width: 425px) {
+  .flex-port {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .page-title h1 {
+    font-size: 3rem;
+  }
+}

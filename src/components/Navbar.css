@@ -18,8 +18,12 @@
     margin-top: -1rem;
 }
 
-.name {
+.navbar-links {
     margin: 1rem 0 0 2.4rem;
+}
+
+.name {
+   margin: 0 auto;
 }
 
 .portfolio {
@@ -62,4 +66,13 @@ h1 {
 
 header {
     background-color: #fff;
+}
+
+@media screen and (max-width: 425px) {
+    .navbar {
+        flex-direction: column;
+    }
+    .navbar-headers {
+        margin-bottom: 2rem;
+    }
 }
