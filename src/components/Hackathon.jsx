@@ -2,14 +2,14 @@ import ImageSlider from "./ImageSlider"
 
 export default function Hackathon() {
     const slides = [
-        {url: 'http://localhost:3000/Inversity.webp', title: "Inversity brief"},  
+        {url: '/Inversity.webp', title: "Inversity brief"},  
     ]
     return (
         <div className="hackathon">
             <h2 className="project-title">Liverpool Hackathon</h2>
             <div className="flex-port">
                 <div className="slide-container">
-                    <ImageSlider slides={slides}/>
+                    <ImageSlider slides={slides} className="slider-styles-inversity"/>
                 </div>
                 <div className="port-text">
                     <p>Brief: How can AI make education more engaging, effective and equitable?</p>

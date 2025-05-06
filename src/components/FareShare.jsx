@@ -11,7 +11,7 @@ export default function FareShare() {
           <h2 className="project-title">FareShare website</h2>
           <div className="flex-port">
             <div className="slide-container">
-              <ImageSlider slides={slides}/>
+              <ImageSlider slides={slides} className="slider-styles"/>
             </div>
             <div className="port-text">
               <p>Brief: Choose a website and try to copy it as closely as possible</p>

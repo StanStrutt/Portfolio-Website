@@ -11,7 +11,7 @@ export default function GMAC() {
           <h2 className="project-title">GMAC Reimagined</h2>
           <div className='flex-port'>
             <div className="slide-container">
-              <ImageSlider slides={slides}/>
+              <ImageSlider slides={slides} className="slider-styles"/>
             </div>
             <div className="port-text">
               <p>Brief: Remake the current GMAC website as a SPA with dropdowns for the options and cards to fit the information</p>

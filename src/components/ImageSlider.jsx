@@ -1,7 +1,7 @@
 import { useState } from "react"
 import "./ImageSlider.css"
 
-export default function ImageSlider({ slides }) {
+export default function ImageSlider({ slides, className }) {
     const [currentIndex, setCurrentIndex] = useState(0)
 
     const goToPrevious = () => {
@@ -20,7 +20,7 @@ export default function ImageSlider({ slides }) {
         <div className="slide-holder">
             <div className="left-arrow" onClick={goToPrevious}>←</div>
             <div className="right-arrow" onClick={goToNext}>→</div>
-            <div className="slider-styles" style={{backgroundImage: `url(${slides[currentIndex].url})`}}></div>
+            <div className={className} style={{backgroundImage: `url(${slides[currentIndex].url})`}}></div>
         </div>
     )
 }

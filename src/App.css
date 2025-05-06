@@ -33,7 +33,7 @@ h1 {
 }
 
 .line-container {
-  padding-top: 4rem;
+  padding-top: 2rem;
 }
 
 .line-box {
@@ -151,5 +151,22 @@ hr {
 }
 
 .port-text a {
-  margin: 4rem;
+  margin: 2rem;
+  color: #df3d58;
+}
+
+@media screen and (max-width: 1024px) {
+  .flex-port {
+    flex-direction: column;
+  }
+  .port-text {
+    width: 95%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .port-text {
+    width: 100%;
+  }
 }
