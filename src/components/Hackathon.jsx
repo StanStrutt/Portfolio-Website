@@ -3,7 +3,7 @@
 export default function Hackathon() {
     return (
         <div className="hackathon">
-            <h2 className="project-title">Liverpool Hackathon</h2>
+            <h3 className="project-title">Liverpool Hackathon</h3>
             <div className="flex-port">
                 <div className="slide-container">
                     <img className="inversity-img" alt="Inversity Hackathon" src="/Inversity.png"/>

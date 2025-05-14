@@ -8,7 +8,7 @@ export default function DISCOTEK() {
     ]
     return (
         <div className="DISCOTEK">
-            <h2 className="project-title">DISCOTEK Reimagined</h2>
+            <h3 className="project-title">DISCOTEK Reimagined</h3>
             <div className="flex-port">
                 <div className="slide-container">
                     <ImageSlider slides={slides} className="slider-styles"/>

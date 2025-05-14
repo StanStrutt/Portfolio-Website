@@ -8,7 +8,7 @@ export default function Portfolio() {
     <div className='Portfolio'>
       <div className='page-title-cont'>
         <div className='page-title'>
-          <h1>Portfolio</h1>
+          <h2>Portfolio</h2>
         </div>
       </div>
       <div className='line-container'>

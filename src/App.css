@@ -27,7 +27,7 @@ h1 {
   color: white;
 }
 
-.page-title h1 {
+.page-title h2 {
   font-size: 5em;
   text-align: center;
 }
@@ -126,6 +126,7 @@ hr {
   margin: 2rem 0 3rem;
   text-decoration: underline;
   text-align: center;
+  font-size: 1.5rem;
 }
 
 .GMAC-Reimagined {

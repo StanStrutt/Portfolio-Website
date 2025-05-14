@@ -8,7 +8,7 @@ export default function FareShare() {
 
     return (
         <div className='FareShare'>
-          <h2 className="project-title">FareShare website</h2>
+          <h3 className="project-title">FareShare website</h3>
           <div className="flex-port">
             <div className="slide-container">
               <ImageSlider slides={slides} className="slider-styles"/>

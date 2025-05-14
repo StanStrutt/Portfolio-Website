@@ -8,7 +8,7 @@ export default function GMAC() {
   ]
     return (
         <div className='GMAC-Reimagined'>
-          <h2 className="project-title">GMAC Reimagined</h2>
+          <h3 className="project-title">GMAC Reimagined</h3>
           <div className='flex-port'>
             <div className="slide-container">
               <ImageSlider slides={slides} className="slider-styles"/>
