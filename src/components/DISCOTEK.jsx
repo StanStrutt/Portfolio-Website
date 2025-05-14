@@ -11,7 +11,7 @@ export default function DISCOTEK() {
             <h2 className="project-title">DISCOTEK Reimagined</h2>
             <div className="flex-port">
                 <div className="slide-container">
-                    <ImageSlider slides={slides} className="slider-styles-discotek"/>
+                    <ImageSlider slides={slides} className="slider-styles"/>
                 </div>
                 <div className="port-text">
                     <p>Brief: Copy the frontend of the website but making it in React instead of HTML and fixing the backend/API so that the resources in the website work</p>

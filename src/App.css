@@ -172,9 +172,16 @@ hr {
   }
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 768px) {
   .port-text {
     width: 100%;
+  }
+  .welcome-box p {
+    font-size: 14px;
+    padding-left: 10px;
+  }
+  .port-text p {
+    margin: 2rem 22px 2rem 22px;
   }
 }
 
@@ -188,10 +195,23 @@ hr {
   .welcome-box {
     width: 100%;
   }
+  .welcome-box p {
+    padding: 0;
+    margin-left: 11px
+  }
 }
 
 @media screen and (max-width: 375px) {
   .page-title h1 {
     font-size: 3rem;
+  }
+  .welcome-box p {
+    margin-left: 8px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .welcome-box p {
+    margin-left: 4px;
   }
 }
