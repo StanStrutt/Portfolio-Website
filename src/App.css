@@ -162,6 +162,31 @@ hr {
   border-radius: 10px;
 }
 
+.best-at p{
+  margin-left: 1rem;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.ok-at p{
+  margin-left: 1rem;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.img-HTML {
+  margin-right: 3rem;
+}
+
+.img-python {
+  margin-bottom: 0.7rem;
+  margin-left: 6rem;
+}
+
+.img-javascript {
+  margin-left: 4rem;
+}
+
 @media screen and (max-width: 1024px) {
   .flex-port {
     flex-direction: column;
@@ -187,6 +212,14 @@ hr {
     font-size: 14px;
     padding-left: 10px;
   }
+  .best-at p {
+    font-size: 14px;
+    padding-left: 10px;
+  }
+  .ok-at p {
+    font-size: 14px;
+    padding-left: 10px;
+  }
   .port-text p {
     margin: 2rem 22px 2rem 22px;
   }
@@ -206,6 +239,12 @@ hr {
     padding: 0;
     margin-left: 11px
   }
+  .best-at p {
+    margin-left: 11px;
+  }
+  .ok-at p {
+    margin-left: 11px;
+  }
 }
 
 @media screen and (max-width: 375px) {
@@ -215,10 +254,32 @@ hr {
   .welcome-box p {
     margin-left: 8px;
   }
+  .img-HTML {
+    margin-right: 1rem;
+  }
+  .best-at p {
+    margin-left: 8px;
+  }
+  .ok-at p {
+    margin-left: 8px;
+  }
+  .img-javascript {
+    margin-left: 2rem;
+  }
+  .img-python {
+    margin-bottom: 0.7rem;
+    margin-left: 4rem;
+  }
 }
 
 @media screen and (max-width: 320px) {
   .welcome-box p {
+    margin-left: 4px;
+  }
+  .best-at p {
+    margin-left: 4px;
+  }
+  .ok-at p {
     margin-left: 4px;
   }
 }
